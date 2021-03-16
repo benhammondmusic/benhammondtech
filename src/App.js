@@ -1,23 +1,18 @@
-import logo from './logo.svg';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <main>
+        <a href="https://docs.google.com/document/d/1nYJf1ZjGetUo8lFbwoyf23prkTw-0H_HiqvMKlY5_nw/edit?usp=sharing">resume - google doc</a>
+        <a href="https://blog.benhammond.tech">blog - music and tech</a>
+
+        <a href="https://github.com/benhammondmusic">github - projects and code playgrounds</a>
+
+        <a href="https://www.benhammondmusic.com">benhammondmusic - professional musician site</a>
+
+        <a href="mailto:benjamin.hammond@gmail.com">email me</a>
+      </main>
     </div>
   );
 }
