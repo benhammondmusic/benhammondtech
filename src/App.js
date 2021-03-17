@@ -2,7 +2,7 @@ import './App.css';
 
 function App() {
   return (
-    <div className="App">
+    <div className="App bg-blue-900 text-gray-100">
       <main className=" flex flex-col items-center justify-center h-screen">
         <h1 className="my-20 font-sans">benhammond.tech - denver developer</h1>
         <div className="w-2/3">
